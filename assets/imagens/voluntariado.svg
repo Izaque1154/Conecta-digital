@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Equipe de voluntários</title>
+  <desc id="desc">Quatro pessoas reunidas em uma oficina de inclusão digital.</desc>
+  <rect width="640" height="420" fill="#e4f5ec"/>
+  <rect x="115" y="255" width="410" height="95" rx="12" fill="#c38b5f"/>
+  <rect x="250" y="205" width="140" height="90" rx="8" fill="#263238"/>
+  <rect x="262" y="217" width="116" height="66" fill="#ffffff"/>
+  <circle cx="110" cy="120" r="42" fill="#f1c7a6"/>
+  <circle cx="250" cy="105" r="42" fill="#9d6645"/>
+  <circle cx="390" cy="105" r="42" fill="#d99b72"/>
+  <circle cx="530" cy="120" r="42" fill="#f1c7a6"/>
+  <rect x="62" y="168" width="96" height="125" rx="38" fill="#125b9a"/>
+  <rect x="202" y="153" width="96" height="125" rx="38" fill="#2f8f63"/>
+  <rect x="342" y="153" width="96" height="125" rx="38" fill="#f1b722"/>
+  <rect x="482" y="168" width="96" height="125" rx="38" fill="#7d5ba6"/>
+</svg>
