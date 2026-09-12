@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conecta Digital | Componentes de feedback</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="cabecalho">
+    <a class="logo" href="index.html">Conecta Digital</a>
+    <nav aria-label="Navegação principal">
+      <ul class="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="pagina-componentes">
+    <section class="titulo-componentes">
+      <p class="chamada">Design System</p>
+      <h1>Componentes de feedback</h1>
+      <p>Estados visuais usados para informar, confirmar e orientar as ações dos usuários.</p>
+    </section>
+
+    <section class="painel-componentes" aria-labelledby="titulo-badges">
+      <h2 id="titulo-badges">Badges de projetos</h2>
+      <p class="descricao-componente">Identificam rapidamente a situação de cada iniciativa.</p>
+      <div class="lista-badges">
+        <span class="badge badge-ativo">Ativo</span>
+        <span class="badge badge-planejado">Planejado</span>
+        <span class="badge badge-concluido">Concluído</span>
+        <span class="badge badge-urgente">Urgente</span>
+      </div>
+    </section>
+
+    <section class="painel-componentes" aria-labelledby="titulo-alertas">
+      <h2 id="titulo-alertas">Caixas de alerta</h2>
+      <p class="descricao-componente">Cada mensagem combina cor, ícone e texto para não depender apenas da cor.</p>
+      <div class="alerta alerta-sucesso" role="status">
+        <span class="icone-feedback" aria-hidden="true">✓</span>
+        <div><strong>Cadastro realizado!</strong><p>Seus dados foram enviados com sucesso.</p></div>
+      </div>
+      <div class="alerta alerta-aviso" role="alert">
+        <span class="icone-feedback" aria-hidden="true">!</span>
+        <div><strong>Atenção</strong><p>Confira os dados antes de continuar.</p></div>
+      </div>
+      <div class="alerta alerta-erro" role="alert">
+        <span class="icone-feedback" aria-hidden="true">×</span>
+        <div><strong>Não foi possível enviar</strong><p>Verifique os campos destacados e tente novamente.</p></div>
+      </div>
+    </section>
+
+    <div class="grade-feedback">
+      <section class="painel-componentes" aria-labelledby="titulo-toast">
+        <h2 id="titulo-toast">Toast</h2>
+        <p class="descricao-componente">Notificação rápida e não obstrutiva.</p>
+        <div class="toast-demonstracao" role="status" aria-live="polite">
+          <span class="icone-toast" aria-hidden="true">✓</span>
+          <div><strong>Doação confirmada</strong><p>Obrigado por apoiar este projeto.</p></div>
+          <button class="fechar-feedback" type="button" aria-label="Fechar notificação">×</button>
+        </div>
+      </section>
+
+      <section class="painel-componentes" aria-labelledby="titulo-modal">
+        <h2 id="titulo-modal">Modal de confirmação</h2>
+        <p class="descricao-componente">Solicita confirmação antes de concluir uma ação importante.</p>
+        <div class="modal-demonstracao" role="dialog" aria-modal="true" aria-labelledby="modal-titulo" aria-describedby="modal-texto">
+          <button class="fechar-feedback" type="button" aria-label="Fechar janela">×</button>
+          <span class="icone-modal" aria-hidden="true">♥</span>
+          <h3 id="modal-titulo">Confirmar participação?</h3>
+          <p id="modal-texto">Você será cadastrado como voluntário neste projeto.</p>
+          <div class="acoes-modal">
+            <button class="botao-secundario" type="button">Cancelar</button>
+            <button type="button">Confirmar</button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Conecta Digital. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>

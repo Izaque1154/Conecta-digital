@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Aula de inclusão digital</title>
+  <desc id="desc">Uma idosa e uma voluntária utilizando um computador.</desc>
+  <rect width="640" height="420" fill="#dceefa"/>
+  <circle cx="165" cy="125" r="55" fill="#f2c6a0"/>
+  <circle cx="465" cy="125" r="55" fill="#d89a72"/>
+  <path d="M105 118c5-75 115-75 120 0-28-20-82-20-120 0" fill="#e8edf1"/>
+  <path d="M405 115c12-70 110-65 120 5-40-18-78-18-120-5" fill="#293b4a"/>
+  <rect x="90" y="188" width="150" height="175" rx="55" fill="#2f8f63"/>
+  <rect x="390" y="188" width="150" height="175" rx="55" fill="#125b9a"/>
+  <rect x="220" y="205" width="200" height="125" rx="10" fill="#263238"/>
+  <rect x="235" y="220" width="170" height="95" rx="4" fill="#ffffff"/>
+  <circle cx="320" cy="267" r="28" fill="#8fc7e8"/>
+  <rect x="285" y="330" width="70" height="18" fill="#263238"/>
+  <rect x="255" y="348" width="130" height="12" rx="6" fill="#263238"/>
+</svg>
